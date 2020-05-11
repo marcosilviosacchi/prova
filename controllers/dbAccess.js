@@ -103,6 +103,7 @@ exports.find = (req, res, next) => {
 
       default:
         return;
+        
     }
   });
   let fieldKeys = Object.keys(req.body.fields);
